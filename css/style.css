@@ -1,0 +1,501 @@
+*{
+    margin:0;
+    padding:0; 
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: 
+}
+
+.align-center{
+    align-items: center;
+}
+
+body{
+
+}
+
+.header-section{
+    background-color: #FCDA01;
+    padding: 50px;
+}
+.container{width: 1200px;margin: 0 auto;overflow: hidden;}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{}
+
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 24px;
+    color: #333;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    padding: 0 15px;
+    font-weight: 700;
+}
+nav ul li a:hover{}
+
+.slider-content{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-right: 50px;
+}
+.slider-content h1{
+    font-size: 32px;
+}
+.slider-content h3{
+    font-weight: 100;
+    color: #444;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.slider-content p{
+    font-size: 18px;
+    color: #555;
+}
+ul.brand-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.brand-list li{font-size: 50px;padding: 10px 20px 0 0;}
+ul.brand-list li a{}
+ul.brand-list li a:hover{}
+
+.slider-img{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-left: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.slider-img img{}
+
+ul.bullet-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+ul.bullet-list li{
+    list-style: none;
+    padding: 4px;
+}
+ul.bullet-list li a{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ffffffad;
+    border-radius: 50%;
+}
+ul.bullet-list li a:hover{
+    background: #fff;
+}
+
+.features-section{
+    padding: 100px 0;
+}
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1{
+    font-size: 32px;
+}
+.header p{
+    font-size: 20px;
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+}
+.col{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.feature-icon{flex-basis: 20%;max-width: 20%;/* padding: 15px; */font-size: 40px;}
+.feature-icon i{}
+.feature-content{
+    flex-basis: 80%;
+    max-width: 80%;
+    /* padding: 15px; */
+    /* font-size: 35px; */
+}
+.feature-content h2{
+    color: #000;
+    font-weight: 100;
+}
+.feature-content p{
+    color: #969696;
+    font-size: 18px;
+}
+
+
+/* Footer Section */
+
+.footer-section{padding: 100px 0 50px;background: black;}
+.subsciption-form{
+    text-align: center;
+}
+.subsciption-form h1{
+    font-size: 35px;
+    color: yellow;
+}
+.subsciption-form p{
+    color: wheat;
+    font-size: 22px;
+    max-width: 800px;
+    margin: auto;
+}
+
+form{
+    padding: 50px;
+}
+form .input{
+    flex-basis: 80%;
+    max-width: 80%;
+    padding: 0px 5px;
+}
+form .input input{
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 18px;
+}
+form .submit{
+    flex-basis: 20%;
+    max-width: 20%;
+    padding: 0 5px;
+}
+form .submit input{
+    width: 100%;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 18px;
+    background: yellow;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+form .submit input:hover{
+    background: transparent;
+    border: 1px solid yellow;
+    color: yellow;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.social-link li{list-style: none;padding: 5px;}
+.social-link li a{
+    background: yellow;
+    color: black;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+.social-link li a:hover{}
+
+.address{
+    max-width: 30%;
+    flex-basis: 29%;
+}
+.address address{
+    color: white;
+    font-style: inherit;
+    font-size: 20px;
+}
+.footer-col{
+    max-width: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+.footer-col ul{}
+.footer-col ul li{
+    list-style: none;
+}
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer-col ul li a:hover{
+    color: yellow;
+}
+   *{
+    margin:0;
+    padding:0; 
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: 
+}
+
+.align-center{
+    align-items: center;
+}
+
+body{
+
+}
+
+.header-section{
+    background-color: #FCDA01;
+    padding: 50px;
+}
+.container{width: 1200px;margin: 0 auto;overflow: hidden;}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{}
+
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 24px;
+    color: #333;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    padding: 0 15px;
+    font-weight: 700;
+}
+nav ul li a:hover{}
+
+.slider-content{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-right: 50px;
+}
+.slider-content h1{
+    font-size: 32px;
+}
+.slider-content h3{
+    font-weight: 100;
+    color: #444;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.slider-content p{
+    font-size: 18px;
+    color: #555;
+}
+ul.brand-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.brand-list li{font-size: 50px;padding: 10px 20px 0 0;}
+ul.brand-list li a{}
+ul.brand-list li a:hover{}
+
+.slider-img{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-left: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.slider-img img{}
+
+ul.bullet-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+ul.bullet-list li{
+    list-style: none;
+    padding: 4px;
+}
+ul.bullet-list li a{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ffffffad;
+    border-radius: 50%;
+}
+ul.bullet-list li a:hover{
+    background: #fff;
+}
+
+.features-section{
+    padding: 100px 0;
+}
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1{
+    font-size: 32px;
+}
+.header p{
+    font-size: 20px;
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+}
+.col{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.feature-icon{flex-basis: 20%;max-width: 20%;/* padding: 15px; */font-size: 40px;}
+.feature-icon i{}
+.feature-content{
+    flex-basis: 80%;
+    max-width: 80%;
+    /* padding: 15px; */
+    /* font-size: 35px; */
+}
+.feature-content h2{
+    color: #000;
+    font-weight: 100;
+}
+.feature-content p{
+    color: #969696;
+    font-size: 18px;
+}
+
+
+/* Footer Section */
+
+.footer-section{padding: 100px 0 50px;background: black;}
+.subsciption-form{
+    text-align: center;
+}
+.subsciption-form h1{
+    font-size: 35px;
+    color: yellow;
+}
+.subsciption-form p{
+    color: wheat;
+    font-size: 22px;
+    max-width: 800px;
+    margin: auto;
+}
+
+form{
+    padding: 50px;
+}
+form .input{
+    flex-basis: 80%;
+    max-width: 80%;
+    padding: 0px 5px;
+}
+form .input input{
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 18px;
+}
+form .submit{
+    flex-basis: 20%;
+    max-width: 20%;
+    padding: 0 5px;
+}
+form .submit input{
+    width: 100%;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 18px;
+    background: yellow;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+form .submit input:hover{
+    background: transparent;
+    border: 1px solid yellow;
+    color: yellow;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.social-link li{list-style: none;padding: 5px;}
+.social-link li a{
+    background: yellow;
+    color: black;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+.social-link li a:hover{}
+
+.address{
+    max-width: 30%;
+    flex-basis: 29%;
+}
+.address address{
+    color: white;
+    font-style: inherit;
+    font-size: 20px;
+}
+.footer-col{
+    max-width: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+.footer-col ul{}
+.footer-col ul li{
+    list-style: none;
+}
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer-col ul li a:hover{
+    color: yellow;
+}
+   
